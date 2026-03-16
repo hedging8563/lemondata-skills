@@ -1,0 +1,137 @@
+[
+  {
+    "id": "github-public",
+    "label": "GitHub Public Repository",
+    "tier": "L0",
+    "automationMode": "full",
+    "url": "https://github.com/hedging8563/lemondata-skills",
+    "submitUrl": "https://github.com/hedging8563/lemondata-skills",
+    "notes": "Canonical public source for every published skill."
+  },
+  {
+    "id": "skills-sh",
+    "label": "skills.sh",
+    "tier": "L0",
+    "automationMode": "passive",
+    "url": "https://skills.sh/",
+    "submitUrl": "https://skills.sh/docs",
+    "notes": "Discovery is repo-driven; optimize compatibility rather than manual submission."
+  },
+  {
+    "id": "agentskills-in",
+    "label": "agentskills.in",
+    "tier": "L0",
+    "automationMode": "full",
+    "url": "https://www.agentskills.in/",
+    "submitUrl": "https://www.agentskills.in/",
+    "notes": "Supports repo indexing and CLI submission patterns."
+  },
+  {
+    "id": "github-discovery",
+    "label": "GitHub Discovery Surface",
+    "tier": "L0",
+    "automationMode": "full",
+    "url": "https://github.com/",
+    "submitUrl": "https://github.com/",
+    "notes": "Topics, releases, README SEO, code search, and repository metadata."
+  },
+  {
+    "id": "lobehub",
+    "label": "LobeHub Skills Marketplace",
+    "tier": "L1",
+    "automationMode": "assisted",
+    "url": "https://lobehub.com/skills",
+    "submitUrl": "https://lobehub.com/skills",
+    "notes": "Use browser automation for checks; submission remains semi-automated."
+  },
+  {
+    "id": "agentskillsrepo",
+    "label": "AgentSkillsRepo",
+    "tier": "L1",
+    "automationMode": "assisted",
+    "url": "https://agentskillsrepo.com/",
+    "submitUrl": "https://agentskillsrepo.com/docs",
+    "notes": "GitHub repo driven listing with login and review flow."
+  },
+  {
+    "id": "agentskillsindex",
+    "label": "Agent Skills Index",
+    "tier": "L1",
+    "automationMode": "assisted",
+    "url": "https://agentskillsindex.com/",
+    "submitUrl": "https://agentskillsindex.com/submit",
+    "notes": "Repo + root SKILL.md submission target."
+  },
+  {
+    "id": "agentskillsource",
+    "label": "Agent Skill Source",
+    "tier": "L1",
+    "automationMode": "assisted",
+    "url": "https://agentskillsource.com/",
+    "submitUrl": "https://agentskillsource.com/",
+    "notes": "Structured submission with checks and catalog presence."
+  },
+  {
+    "id": "ai-skills-marketplace",
+    "label": "AI Skills Marketplace",
+    "tier": "L1",
+    "automationMode": "assisted",
+    "url": "https://www.skills-marketplace.com/",
+    "submitUrl": "https://www.skills-marketplace.com/",
+    "notes": "Good for high-score batches; admin review expected."
+  },
+  {
+    "id": "mdskills",
+    "label": "mdskills.ai",
+    "tier": "L1",
+    "automationMode": "assisted",
+    "url": "https://www.mdskills.ai/",
+    "submitUrl": "https://www.mdskills.ai/",
+    "notes": "Login-bound submission target suited to account-backed automation."
+  },
+  {
+    "id": "terminal-skills",
+    "label": "Terminal Skills",
+    "tier": "L2",
+    "automationMode": "manual",
+    "url": "https://terminalskills.io/",
+    "submitUrl": "https://github.com/TerminalSkills/skills",
+    "notes": "Curated destination for top category leaders only."
+  },
+  {
+    "id": "agensi",
+    "label": "Agensi",
+    "tier": "L2",
+    "automationMode": "manual",
+    "url": "https://www.agensi.io/",
+    "submitUrl": "https://www.agensi.io/",
+    "notes": "Selective creator marketplace for premium or commercially strong skill families."
+  },
+  {
+    "id": "skillcreator-ai",
+    "label": "SkillCreator.ai",
+    "tier": "L2",
+    "automationMode": "manual",
+    "url": "https://skillcreator.ai/",
+    "submitUrl": "https://skillcreator.ai/",
+    "notes": "Resource layer and newsletter-style amplification, not a bulk listing channel."
+  },
+  {
+    "id": "awesome-lists",
+    "label": "Awesome Lists and Curated GitHub Indexes",
+    "tier": "L2",
+    "automationMode": "manual",
+    "url": "https://github.com/topics/agent-skills",
+    "submitUrl": "https://github.com/topics/agent-skills",
+    "notes": "Hand-picked champion skills and benchmark reports only."
+  },
+  {
+    "id": "community-distribution",
+    "label": "Community Distribution",
+    "tier": "L2",
+    "automationMode": "manual",
+    "url": "https://news.ycombinator.com/",
+    "submitUrl": "https://news.ycombinator.com/",
+    "notes": "Reddit, X, Discord, Hacker News, and newsletter distribution for flagship skill families."
+  }
+]

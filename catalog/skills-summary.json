@@ -1,0 +1,34 @@
+{
+  "totalSkills": 288,
+  "categories": {
+    "research": 24,
+    "coding": 24,
+    "writing": 24,
+    "data-analytics": 24,
+    "design": 24,
+    "planning": 24,
+    "communication": 24,
+    "productivity": 24,
+    "devops": 24,
+    "ai-ml": 24,
+    "security": 24,
+    "business": 24
+  },
+  "archetypes": {
+    "audit-check": 48,
+    "generate-build": 48,
+    "integrate-migrate": 48,
+    "optimize-improve": 48,
+    "compare-select": 48,
+    "automate-ops": 48
+  },
+  "variants": {
+    "solo-builder": 72,
+    "team-workflow": 72,
+    "ops-ready": 72,
+    "lemondata-accelerated": 72
+  },
+  "tiers": {
+    "L0": 288
+  }
+}
