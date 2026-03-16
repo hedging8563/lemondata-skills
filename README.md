@@ -1,16 +1,24 @@
-# LemonData Skills Public Catalog
+# LemonData Skills
 
-This repository is the public distribution mirror for the LemonData Skills Factory.
+This repository contains public agent skills released by LemonData.
 
-- Canonical source: https://github.com/hedging8563/lemondata-skills
-- Generated from: `apps/skills-factory` in the main monorepo
-- Launch target: 12 categories x 24 live skills
+## What lives here
 
-## Included artifacts
+- Publicly released skill directories under `skills/`
+- Distribution-facing README and license information
 
-- `catalog/skill-matrix.json` — planned launch inventory
-- `catalog/skills-summary.json` — aggregate counts by category, archetype, and variant
-- `channels/market-channels.json` — publishing channel tiers and routing policy
-- `channels/market-health.json` — latest automated availability checks for channel endpoints
+## What does not live here
 
-> Public live skills will be synced into `skills/` once they pass validation, provenance, and evaluation gates.
+- Internal planning matrices
+- Publishing scorecards and market routing data
+- Private provenance review notes
+- Internal automation and operating documents
+
+## Skill format
+
+Published skills follow the Agent Skills specification and use `SKILL.md` as the agent-facing entry point.
+
+- Spec: https://agentskills.io/specification
+- Canonical repo: https://github.com/hedging8563/lemondata-skills
+
+As new skills are approved for release, they will be synced into the `skills/` directory.
