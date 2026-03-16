@@ -6,8 +6,8 @@
     "url": "https://github.com/hedging8563/lemondata-skills",
     "status": "ok",
     "httpStatus": 200,
-    "durationMs": 822,
-    "checkedAt": "2026-03-15T21:47:10.283Z"
+    "durationMs": 433,
+    "checkedAt": "2026-03-16T03:54:01.192Z"
   },
   {
     "id": "skills-sh",
@@ -16,8 +16,8 @@
     "url": "https://skills.sh/",
     "status": "ok",
     "httpStatus": 200,
-    "durationMs": 425,
-    "checkedAt": "2026-03-15T21:47:09.915Z"
+    "durationMs": 175,
+    "checkedAt": "2026-03-16T03:54:00.985Z"
   },
   {
     "id": "agentskills-in",
@@ -26,8 +26,8 @@
     "url": "https://www.agentskills.in/",
     "status": "ok",
     "httpStatus": 200,
-    "durationMs": 445,
-    "checkedAt": "2026-03-15T21:47:09.936Z"
+    "durationMs": 143,
+    "checkedAt": "2026-03-16T03:54:00.954Z"
   },
   {
     "id": "github-discovery",
@@ -36,8 +36,8 @@
     "url": "https://github.com/",
     "status": "ok",
     "httpStatus": 200,
-    "durationMs": 605,
-    "checkedAt": "2026-03-15T21:47:10.096Z"
+    "durationMs": 103,
+    "checkedAt": "2026-03-16T03:54:00.916Z"
   },
   {
     "id": "lobehub",
@@ -46,8 +46,8 @@
     "url": "https://lobehub.com/skills",
     "status": "ok",
     "httpStatus": 200,
-    "durationMs": 668,
-    "checkedAt": "2026-03-15T21:47:10.159Z"
+    "durationMs": 273,
+    "checkedAt": "2026-03-16T03:54:01.087Z"
   },
   {
     "id": "agentskillsrepo",
@@ -56,8 +56,8 @@
     "url": "https://agentskillsrepo.com/",
     "status": "ok",
     "httpStatus": 200,
-    "durationMs": 764,
-    "checkedAt": "2026-03-15T21:47:10.256Z"
+    "durationMs": 268,
+    "checkedAt": "2026-03-16T03:54:01.083Z"
   },
   {
     "id": "agentskillsindex",
@@ -66,8 +66,8 @@
     "url": "https://agentskillsindex.com/",
     "status": "ok",
     "httpStatus": 200,
-    "durationMs": 2192,
-    "checkedAt": "2026-03-15T21:47:11.684Z"
+    "durationMs": 1242,
+    "checkedAt": "2026-03-16T03:54:02.058Z"
   },
   {
     "id": "agentskillsource",
@@ -76,8 +76,8 @@
     "url": "https://agentskillsource.com/",
     "status": "ok",
     "httpStatus": 200,
-    "durationMs": 2076,
-    "checkedAt": "2026-03-15T21:47:11.568Z"
+    "durationMs": 1538,
+    "checkedAt": "2026-03-16T03:54:02.355Z"
   },
   {
     "id": "ai-skills-marketplace",
@@ -86,8 +86,8 @@
     "url": "https://www.skills-marketplace.com/",
     "status": "ok",
     "httpStatus": 200,
-    "durationMs": 1361,
-    "checkedAt": "2026-03-15T21:47:10.854Z"
+    "durationMs": 1158,
+    "checkedAt": "2026-03-16T03:54:01.976Z"
   },
   {
     "id": "mdskills",
@@ -96,8 +96,8 @@
     "url": "https://www.mdskills.ai/",
     "status": "ok",
     "httpStatus": 200,
-    "durationMs": 1170,
-    "checkedAt": "2026-03-15T21:47:10.663Z"
+    "durationMs": 828,
+    "checkedAt": "2026-03-16T03:54:01.647Z"
   },
   {
     "id": "terminal-skills",
@@ -106,8 +106,8 @@
     "url": "https://terminalskills.io/",
     "status": "ok",
     "httpStatus": 200,
-    "durationMs": 648,
-    "checkedAt": "2026-03-15T21:47:10.141Z"
+    "durationMs": 634,
+    "checkedAt": "2026-03-16T03:54:01.454Z"
   },
   {
     "id": "agensi",
@@ -116,8 +116,8 @@
     "url": "https://www.agensi.io/",
     "status": "ok",
     "httpStatus": 200,
-    "durationMs": 1107,
-    "checkedAt": "2026-03-15T21:47:10.600Z"
+    "durationMs": 1156,
+    "checkedAt": "2026-03-16T03:54:01.977Z"
   },
   {
     "id": "skillcreator-ai",
@@ -126,8 +126,8 @@
     "url": "https://skillcreator.ai/",
     "status": "ok",
     "httpStatus": 200,
-    "durationMs": 1589,
-    "checkedAt": "2026-03-15T21:47:11.083Z"
+    "durationMs": 1684,
+    "checkedAt": "2026-03-16T03:54:02.506Z"
   },
   {
     "id": "awesome-lists",
@@ -136,8 +136,8 @@
     "url": "https://github.com/topics/agent-skills",
     "status": "ok",
     "httpStatus": 200,
-    "durationMs": 1187,
-    "checkedAt": "2026-03-15T21:47:10.681Z"
+    "durationMs": 1282,
+    "checkedAt": "2026-03-16T03:54:02.105Z"
   },
   {
     "id": "community-distribution",
@@ -146,7 +146,7 @@
     "url": "https://news.ycombinator.com/",
     "status": "ok",
     "httpStatus": 200,
-    "durationMs": 567,
-    "checkedAt": "2026-03-15T21:47:10.061Z"
+    "durationMs": 1020,
+    "checkedAt": "2026-03-16T03:54:01.844Z"
   }
 ]
