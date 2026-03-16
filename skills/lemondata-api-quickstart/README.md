@@ -1,4 +1,4 @@
-# Lemondata Api Quickstart
+# LemonData API Quickstart
 
 - Category: `coding`
 - License: MIT

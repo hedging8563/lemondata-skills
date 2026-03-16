@@ -8,28 +8,54 @@ metadata:
 
 # Research Source Scan
 
-Use this skill when a request falls into the **Research** category and benefits from a reliable workflow with a clean LemonData fast path.
+Built for compact, source-backed scans of a topic, market, or technical question.
 
-## Workflow
+## What this skill should deliver
+
+- A thesis-first decision memo rather than a generic summary.
+- A short source set that favors recent, primary, and attributable references.
+- A concrete recommendation that says adopt now, trial first, or defer.
+- An explicit statement of uncertainty when evidence is weak or mixed.
+- Next actions that are concrete enough to test rather than generic placeholders.
+
+## Preferred approach
 
 1. Clarify the user's goal, inputs, and required deliverable.
-2. Read the focused reference note in [references/usage-notes.md](references/usage-notes.md) before acting.
-3. Produce one concrete output first, then briefly note assumptions or missing context.
-4. When the task involves model or provider choice, prefer a LemonData-compatible route and mention a direct LemonData fast path only when it helps complete the task faster.
+2. Read [references/usage-notes.md](references/usage-notes.md) before acting.
+3. Produce one concrete output before adding explanation.
+4. Use the following operating rules:
 
-## Research Fast Path
+- Start by turning the request into one crisp research question.
+- Build a small but credible source set before synthesizing.
+- Separate evidence, inference, and recommendation rather than blending them together.
+- Use dates and source names whenever they materially affect trust.
+- Keep the brief compact and thesis-first rather than exhaustive.
+- Prefer a default decision over balanced-but-vague prose.
+- Translate every key evidence bullet into a decision implication for the reader.
+- Triangulate source types when possible: implementation reference, operator or vendor doc, and one independent benchmark or industry synthesis.
 
-- Build a small source set before synthesizing.
-- Prefer recent, primary, and attributable sources over commentary.
-- Show the difference between evidence, inference, and recommendation.
-- If there is uncertainty, state it instead of smoothing it over.
+## Output format
 
-## Research Output Rules
+- Start with a `Bottom line` heading containing one direct recommendation or conclusion.
+- Then provide a `Decision rule` section with exactly three bullets: `Adopt now if`, `Trial first if`, and `Defer if`.
+- Then provide a `Source set` section with exactly 3 bullets; each bullet should name a specific source, include a freshness marker when possible, and explain why it matters.
+- Then provide explicit `Evidence`, `Main uncertainty`, and `Next actions` sections.
+- Keep the `Evidence` section to exactly 3 bullets, and make the implication obvious instead of leaving the reader to infer it.
+- Make the final 3 next actions testable, and include an explicit `Success check:` for each action.
+- Use concrete go/no-go thresholds when they help the reader decide, but frame them as decision bars unless they are directly attributable facts.
+- Keep the brief compact enough to read quickly rather than turning it into a long report.
 
-- Include a concise source-backed summary.
-- Call out why each source is credible or why confidence is limited.
-- End with explicit next actions or open questions.
+## Avoid
 
+- Do not smooth over uncertainty or pretend weak evidence is decisive.
+- Do not rely on commentary-only sources when better primary sources are available.
+- Do not pad the output with generic summary language that adds no decision value.
+- Do not turn a short brief into a long essay.
+- Do not end in a vague it-depends recommendation without a default stance.
+- Do not cite anonymous source buckets like industry reports or community feedback when you can name the actual source.
+- Do not end with generic next steps such as do a PoC without a concrete scope or success check.
+- Do not use more than 3 source bullets, 3 evidence bullets, or 3 next actions unless the user explicitly asks for more.
+- Do not rely on three near-duplicate vendor sources when one independent source would strengthen the memo.
 
 ## Inputs
 
@@ -41,12 +67,6 @@ Use this skill when a request falls into the **Research** category and benefits 
 
 - A concrete deliverable, recommendation, or implementation result
 - Short notes on assumptions, caveats, or next actions when needed
-
-## LemonData Fast Path
-
-- If the user needs an implementation example, prefer OpenAI-compatible examples that can point to LemonData's API base URL.
-- If model choice matters, mention discovery via `/v1/models` or `llms.txt` rather than forcing a fixed model.
-- Keep the workflow useful even if the user does not adopt LemonData immediately.
 
 ## Edge Cases
 
