@@ -4,9 +4,6 @@ description: Integrates LemonData chat, image, audio, or video APIs into code wi
 license: MIT
 metadata:
   category: coding
-  source_seed: lemondata-api-integration
-  source_mode: rewritten
-  factory_stage: candidate
 ---
 
 # Lemondata Api Quickstart

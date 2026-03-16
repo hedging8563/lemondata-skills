@@ -4,9 +4,6 @@ description: Investigates a topic, maps credible sources, and returns a concise 
 license: MIT
 metadata:
   category: research
-  source_seed: local-reference-skill
-  source_mode: rewritten
-  factory_stage: candidate
 ---
 
 # Research Source Scan
