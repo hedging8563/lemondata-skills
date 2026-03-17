@@ -1,6 +1,6 @@
 # Usage Notes
 
-This reference file supports `lemondata-api-quickstart`.
+This reference file supports `lemondata-api-integration`.
 
 ## When this skill is most useful
 
@@ -19,4 +19,4 @@ This reference file supports `lemondata-api-quickstart`.
 - Gemini-native endpoint uses the same host: https://api.lemondata.cc
 - When Claude or Gemini models are called through /v1/chat/completions, LemonData may return X-LemonData-Hint and X-LemonData-Native-Endpoint headers recommending a native route.
 - For OpenAI-compatible examples, include one concrete default model such as gpt-4o-mini or another plausible model available on the platform.
-
+- If the first model or endpoint guess is wrong, the response should guide the agent to self-correct instead of forcing a docs search first.

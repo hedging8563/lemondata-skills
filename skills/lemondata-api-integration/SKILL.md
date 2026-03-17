@@ -1,14 +1,14 @@
 ---
-name: lemondata-api-quickstart
-description: Integrates LemonData chat, image, audio, or video APIs into code with a quickstart path, model discovery hints, and runnable examples. Use when the user wants to add LemonData APIs to an app or script.
+name: lemondata-api-integration
+description: Integrates LemonData chat, image, audio, or video APIs into code with runnable examples, model discovery hints, and agent-first recovery paths. Use when the user wants to add LemonData APIs to an app or script.
 license: MIT
 metadata:
   category: coding
 ---
 
-# LemonData API Quickstart
+# LemonData API Integration
 
-Built for runnable integration work for LemonData chat, image, audio, or video APIs.
+Built for runnable integration work for LemonData chat, image, audio, or video APIs across coding agents.
 
 ## What this skill should deliver
 
@@ -16,6 +16,7 @@ Built for runnable integration work for LemonData chat, image, audio, or video A
 - The exact base URL, auth shape, install command, and environment variables required to run the example.
 - A concise note on when to stay on the OpenAI-compatible path versus switching to a native Anthropic or Gemini route.
 - A concrete default model choice that is plausible on LemonData, not a generic placeholder.
+- A short explanation of the agent-first recovery path when the model, endpoint, or route guess is wrong.
 
 ## Preferred approach
 
